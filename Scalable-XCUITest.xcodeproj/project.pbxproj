@@ -14,6 +14,7 @@
 		9B5B49961F0C2EED00CBAEFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5B49941F0C2EED00CBAEFC /* LaunchScreen.storyboard */; };
 		9B5B49A11F0C2EED00CBAEFC /* Scalable_XCUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B49A01F0C2EED00CBAEFC /* Scalable_XCUITestUITests.swift */; };
 		9B5B49AC1F0C347B00CBAEFC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B49AB1F0C347B00CBAEFC /* Colors.swift */; };
+		9B5B49AE1F0C467200CBAEFC /* Non_Scalable_XCUITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B49AD1F0C467200CBAEFC /* Non_Scalable_XCUITestUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		9B5B49A01F0C2EED00CBAEFC /* Scalable_XCUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scalable_XCUITestUITests.swift; sourceTree = "<group>"; };
 		9B5B49A21F0C2EED00CBAEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B5B49AB1F0C347B00CBAEFC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		9B5B49AD1F0C467200CBAEFC /* Non_Scalable_XCUITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Non_Scalable_XCUITestUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				9B5B49A01F0C2EED00CBAEFC /* Scalable_XCUITestUITests.swift */,
 				9B5B49A21F0C2EED00CBAEFC /* Info.plist */,
 				9B5B49AB1F0C347B00CBAEFC /* Colors.swift */,
+				9B5B49AD1F0C467200CBAEFC /* Non_Scalable_XCUITestUITests.swift */,
 			);
 			path = "Scalable-XCUITestUITests";
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5B49AE1F0C467200CBAEFC /* Non_Scalable_XCUITestUITests.swift in Sources */,
 				9B5B49A11F0C2EED00CBAEFC /* Scalable_XCUITestUITests.swift in Sources */,
 				9B5B49AC1F0C347B00CBAEFC /* Colors.swift in Sources */,
 			);
