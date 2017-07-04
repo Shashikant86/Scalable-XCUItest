@@ -30,10 +30,14 @@ class Scalable_XCUITestUITests: XCTestCase {
     
     func testRBGBlueButton() {
         Colors.useRGB(.blue)
+        Colors.useRGB(.red)
+        Colors.useRGB(.green)
     }
     
     func testNonRBGYelloButton() {
         Colors.useNonRGB(.yellow)
+        Colors.useNonRGB(.black)
+        Colors.useNonRGB(.gray)
     }
     
 }
