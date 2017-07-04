@@ -23,21 +23,28 @@ class Scalable_XCUITestUITests: XCTestCase {
     
     
     func testTapAllColor() {
-        for color in Colors.colors {
+        XCTContext.runActivity(named: "Tab On All Color Buttons") { _ in
+         for color in Colors.colors {
             Colors.tapButton(color)
+         }
         }
     }
     
     func testRBGBlueButton() {
-        Colors.useRGB(.blue)
-        Colors.useRGB(.red)
-        Colors.useRGB(.green)
+        XCTContext.runActivity(named: "Check only RGB Colors") { _ in
+          Colors.useRGB(.blue)
+          Colors.useRGB(.red)
+          Colors.useRGB(.green)
+            
+        }
     }
     
     func testNonRBGYelloButton() {
+       XCTContext.runActivity(named: "Check only non_RGB Colors") { _ in
         Colors.useNonRGB(.yellow)
         Colors.useNonRGB(.black)
         Colors.useNonRGB(.gray)
+       }
     }
     
 }
