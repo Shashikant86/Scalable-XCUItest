@@ -34,11 +34,14 @@ class Non_Scalable_XCUITestUITests: XCTestCase {
     }
     
     func testRBGBlueButtonNonScalable() {
+        XCUIApplication().buttons["RED"].tap()
         XCUIApplication().buttons["BLUE"].tap()
+        XCUIApplication().buttons["GREEN"].tap()
     }
     
     func testNonRBGYelloButtonNonScalable() {
+        XCUIApplication().buttons["BLACK"].tap()
         XCUIApplication().buttons["YELLOW"].tap()
-    }
+        XCUIApplication().buttons["GRAY"].tap()    }
     
 }
